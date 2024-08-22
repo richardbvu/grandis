@@ -11,6 +11,15 @@ export default {
         "gray-200": "#7B9E89",
         "gray-300": "#99C4AA",
       },
+      fontFamily: {
+        dmsans: ["DM Sans", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+    },
+    screens: {
+      xs: "480px",
+      sm: "768px",
+      md: "1060px",
     },
   },
   plugins: [],
