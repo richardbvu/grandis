@@ -13,14 +13,7 @@ import Office from "./scenes/office/index.tsx";
 import News from "./scenes/news/index.tsx";
 import Contact from "./scenes/contact/index.tsx";
 import ErrorPage from "./scenes/shared/errorPage.tsx";
-Events;
-Art;
-About;
-Office;
-News;
-Contact;
-ErrorPage;
-Suspense;
+import HomeFirstSection from "./scenes/home/homeSectionOne.tsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +26,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      // {
+      //   index: true,
+      //   path: "/",
+      //   element: <HomeFirstSection />,
+      // },
       {
         path: "food",
         element: <Food />,

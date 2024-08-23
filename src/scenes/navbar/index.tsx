@@ -49,15 +49,15 @@ const Navbar = () => {
             {/* ICONS */}
             <div className="flex gap-7">
               <a href="">
-                <FaInstagram className="hover:text-primary-100 h-5 w-5" />
+                <FaInstagram className="h-5 w-5 hover:text-primary-100" />
               </a>
               <a href="">
-                <FaFacebookF className="hover:text-primary-100 h-5 w-5" />
+                <FaFacebookF className="h-5 w-5 hover:text-primary-100" />
               </a>
             </div>
             {/* CONTACT */}
             <Link to={"contact"}>
-              <div className="hover:bg-primary-100 hover:border-primary-100 rounded-lg border-[1px] border-black px-5 py-[5px] font-bold hover:text-white">
+              <div className="rounded-lg border-[1px] border-black px-5 py-[5px] font-bold hover:border-primary-100 hover:bg-primary-100 hover:text-white">
                 Contact
               </div>
             </Link>
@@ -67,8 +67,9 @@ const Navbar = () => {
             <FaBars className="h-6 w-6" />
           </button>
         )}
+        {/* MODAL MENU */}
         {!isAboveMediumScreens && isMenuToggled && (
-          <div className="bg-primary-100 fixed right-0 top-0 h-full w-[300px]">
+          <div className="fixed right-0 top-0 z-50 h-full w-[300px] bg-primary-100">
             <div className="w-full px-10 py-10">
               <div className="flex justify-end">
                 <FaXmark
