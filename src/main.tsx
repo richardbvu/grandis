@@ -1,6 +1,5 @@
 import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PageLayout from "./scenes/shared/pageLayout.tsx";
@@ -13,7 +12,6 @@ import Office from "./scenes/office/index.tsx";
 import News from "./scenes/news/index.tsx";
 import Contact from "./scenes/contact/index.tsx";
 import ErrorPage from "./scenes/shared/errorPage.tsx";
-import HomeFirstSection from "./scenes/home/homeSectionOne.tsx";
 
 const router = createBrowserRouter([
   {
@@ -26,11 +24,6 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      // {
-      //   index: true,
-      //   path: "/",
-      //   element: <HomeFirstSection />,
-      // },
       {
         path: "food",
         element: <Food />,

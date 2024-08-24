@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       {/* NAVBAR */}
-      <div className="mx-auto flex w-11/12 items-center justify-between py-6">
+      <div className="mx-auto flex max-w-[81%] items-center justify-between py-6">
         {/* LEFT SIDE  */}
         <div>
           <a href="/">

@@ -15,6 +15,12 @@ export default {
         dmsans: ["DM Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      content: {
+        abstractwaves: "url('./assets/AbstractWaves.png')",
+        sparkles: "url('./assets/Sparkles.png')",
+        arrow: "url('./assets/Arrow.png')",
+        circles: "url('./assets/Circles.png')",
+      },
     },
     screens: {
       xs: "480px",

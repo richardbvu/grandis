@@ -4,15 +4,19 @@ import { Link } from "react-router-dom";
 const HomeHero = () => {
   return (
     <div className="relative">
-      <img src={HeroImage1} alt="home-page-image" className="w-fit" />
-      <div className="absolute flex flex-col gap-5 drop-shadow-2xl xs:left-[115px] xs:top-[20px] xs:items-center xs:gap-1 sm:left-[120px] sm:top-[60px] sm:items-start md:left-[200px] md:top-[100px] md:items-start lg:left-[220px] lg:top-[150px] lg:items-start">
-        <p className="text-white drop-shadow-2xl xs:text-3xl sm:text-4xl md:text-7xl lg:text-8xl">
+      <img
+        src={HeroImage1}
+        alt="home-page-image"
+        className="w-fit xs:h-[300px] sm:h-auto md:h-auto lg:h-auto"
+      />
+      <div className="absolute flex flex-col gap-5 drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:left-[100px] xs:top-[30px] xs:items-center xs:gap-1 sm:left-[120px] sm:top-[60px] sm:items-start md:left-[200px] md:top-[100px] md:items-start lg:left-[220px] lg:top-[150px] lg:items-start">
+        <p className="text-white xs:text-3xl sm:text-5xl md:text-7xl lg:text-8xl">
           Your place to explore
         </p>
-        <p className="italic text-white drop-shadow-2xl xs:text-3xl sm:text-4xl md:text-7xl lg:text-8xl">
+        <p className="italic text-white xs:text-3xl sm:text-5xl md:text-7xl lg:text-8xl">
           The Grandis
         </p>
-        <p className="text-white drop-shadow-2xl xs:text-sm sm:text-base md:text-2xl lg:text-2xl">
+        <p className="text-white xs:text-sm sm:text-base md:text-2xl lg:text-2xl">
           Select restaurants open now!
         </p>
         <button className="w-fit text-white">

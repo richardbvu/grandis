@@ -1,6 +1,8 @@
-import HomeFirstSection from "./homeSectionOne";
 import HomeHero from "./homeHero";
-import HomeSecondSection from "./homeSecondSection";
+import HomeSectionOne from "./homeSectionOne";
+import HomeSectionTwo from "./homeSectionTwo";
+import HomeSectionThree from "./homeSectionThree";
+import HomeSectionFour from "./homeSectionFour";
 
 const Home = () => {
   return (
@@ -8,10 +10,14 @@ const Home = () => {
       <div className="flex flex-col gap-[150px]">
         {/* HOME HERO */}
         <HomeHero />
-        {/* HOME FIRST SECTION */}
-        <HomeFirstSection />
-        {/* HOME SECOND SECTION */}
-        <HomeSecondSection />
+        {/* HOME SECTION ONE*/}
+        <HomeSectionOne />
+        {/* HOME SECTION TWO*/}
+        <HomeSectionTwo />
+        {/* HOME SECTION Three*/}
+        <HomeSectionThree />
+        {/* HOME SECTION Four*/}
+        <HomeSectionFour />
       </div>
     </div>
   );
