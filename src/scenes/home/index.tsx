@@ -3,6 +3,7 @@ import HomeSectionOne from "./homeSectionOne";
 import HomeSectionTwo from "./homeSectionTwo";
 import HomeSectionThree from "./homeSectionThree";
 import HomeSectionFour from "./homeSectionFour";
+import HomeSectionFive from "./homeSectionFive";
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
         <HomeSectionThree />
         {/* HOME SECTION Four*/}
         <HomeSectionFour />
+        {/* HOME SECTION Five*/}
+        <HomeSectionFive />
       </div>
     </div>
   );

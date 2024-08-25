@@ -15,8 +15,7 @@ const images = [
   },
 ];
 
-type Props = {};
-const HomeFirstSection = (props: Props) => {
+const HomeFirstSection = () => {
   return (
     <div className="w-full">
       <div className="mx-auto max-w-[90%]">
