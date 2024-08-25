@@ -1,4 +1,4 @@
-import Grandis from "../../assets/grandis.png";
+import Grandis from "../../assets/GrandisLogo1.png";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookF, FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
@@ -15,11 +15,7 @@ const Navbar = () => {
         {/* LEFT SIDE  */}
         <div>
           <a href="/">
-            <img
-              className="h-[50px] w-[180px]"
-              src={Grandis}
-              alt="grandis-logo"
-            />
+            <img className="h-[75px]" src={Grandis} alt="grandis-logo" />
           </a>
         </div>
         {/* RIGHT SIDE  */}
