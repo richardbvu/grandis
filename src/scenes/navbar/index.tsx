@@ -77,8 +77,35 @@ const Navbar = () => {
                 <Link to={"/"}>
                   <div className="hover:text-white">Home</div>
                 </Link>
-                <Link to={"food"}>
-                  <div className="hover:text-white">Food</div>
+                <Link
+                  to={"food"}
+                  className="transition duration-300 hover:text-white"
+                >
+                  Food
+                </Link>
+                <Link
+                  to={"events"}
+                  className="transition duration-300 hover:text-white"
+                >
+                  Events
+                </Link>
+                <Link
+                  to={"art"}
+                  className="transition duration-300 hover:text-white"
+                >
+                  Art
+                </Link>
+                <Link
+                  to={"about"}
+                  className="transition duration-300 hover:text-white"
+                >
+                  About
+                </Link>
+                <Link
+                  to={"news"}
+                  className="transition duration-300 hover:text-white"
+                >
+                  News
                 </Link>
               </div>
             </div>

@@ -20,7 +20,7 @@ const HomeFirstSection = () => {
     <div className="w-full">
       <div className="mx-auto max-w-[90%]">
         {/* TITLE */}
-        <div className="mx-auto mb-5 flex max-w-[90%] xs:justify-center xs:text-2xl sm:justify-center sm:text-3xl md:justify-end md:text-3xl lg:justify-end lg:text-4xl">
+        <div className="mx-auto mb-5 flex max-w-[90%] xs:justify-center xs:text-lg sm:justify-center sm:text-3xl md:justify-end md:text-3xl lg:justify-end lg:text-4xl">
           GOOD. GREAT. GRANDIS.
         </div>
         {/* IMAGES */}
