@@ -1,4 +1,4 @@
 const News = () => {
-  return <div>News</div>;
+  return <section>News</section>;
 };
 export default News;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
-    <div className="relative">
+    <section className="relative">
       <img
         src={HeroImage1}
         alt="home-page-image"
@@ -27,7 +27,7 @@ const HomeHero = () => {
           </Link>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 export default HomeHero;

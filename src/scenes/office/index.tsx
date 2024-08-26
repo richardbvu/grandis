@@ -1,4 +1,4 @@
 const Office = () => {
-  return <div>Office</div>;
+  return <section>Office</section>;
 };
 export default Office;

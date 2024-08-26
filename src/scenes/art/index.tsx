@@ -1,4 +1,4 @@
 const Art = () => {
-  return <div>Art</div>;
+  return <section>Art</section>;
 };
 export default Art;

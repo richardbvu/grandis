@@ -7,7 +7,7 @@ import HomeSectionFive from "./homeSectionFive";
 
 const Home = () => {
   return (
-    <div>
+    <section>
       <div className="flex flex-col gap-[150px]">
         {/* HOME HERO */}
         <HomeHero />
@@ -22,7 +22,7 @@ const Home = () => {
         {/* HOME SECTION Five*/}
         <HomeSectionFive />
       </div>
-    </div>
+    </section>
   );
 };
 export default Home;

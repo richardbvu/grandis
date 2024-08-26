@@ -9,7 +9,7 @@ const Navbar = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   return (
-    <div>
+    <nav>
       {/* NAVBAR */}
       <div className="mx-auto flex max-w-[81%] items-center justify-between py-6">
         {/* LEFT SIDE  */}
@@ -112,7 +112,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   );
 };
 export default Navbar;

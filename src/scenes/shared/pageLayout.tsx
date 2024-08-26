@@ -4,11 +4,11 @@ import Footer from "../footer";
 
 const PageLayout = () => {
   return (
-    <div>
+    <section>
       <Navbar />
       <Outlet />
       <Footer />
-    </div>
+    </section>
   );
 };
 export default PageLayout;

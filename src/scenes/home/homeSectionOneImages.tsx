@@ -3,7 +3,7 @@ type Props = {
 };
 const HomeSectionOneImages = ({ img }: Props) => {
   return (
-    <div>
+    <section>
       <div>
         <img
           className="mx-auto aspect-auto h-auto rounded"
@@ -11,7 +11,7 @@ const HomeSectionOneImages = ({ img }: Props) => {
           alt="restaurants-grandis"
         />
       </div>
-    </div>
+    </section>
   );
 };
 export default HomeSectionOneImages;

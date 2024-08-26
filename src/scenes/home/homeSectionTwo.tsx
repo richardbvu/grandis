@@ -2,7 +2,7 @@ import HomeSectionTwoImage1 from "../../assets/HomeSectionTwoImage1.jpg";
 
 const HomeSectionTwo = () => {
   return (
-    <div>
+    <section>
       <div className="w-full">
         <div className="">
           <img
@@ -19,7 +19,7 @@ const HomeSectionTwo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default HomeSectionTwo;
