@@ -12,6 +12,7 @@ import Office from "./scenes/office/index.tsx";
 import News from "./scenes/news/index.tsx";
 import Contact from "./scenes/contact/index.tsx";
 import ErrorPage from "./scenes/shared/errorPage.tsx";
+import FoodRamen from "./scenes/food/foodRamen.tsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "food",
         element: <Food />,
+      },
+      {
+        path: "food/ramen",
+        element: <FoodRamen />,
       },
       {
         path: "events",
