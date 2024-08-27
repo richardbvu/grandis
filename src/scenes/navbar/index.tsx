@@ -1,4 +1,4 @@
-import Grandis from "../../assets/GrandisLogo1.png";
+import Grandis from "../../assets/GrandisLogo.png";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebookF, FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";

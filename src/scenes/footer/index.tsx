@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import GrandisLogo from "../../assets/GrandisLogo.png";
-import GrandisLogo1 from "../../assets/GrandisLogo1.png";
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         {/* LEFT SIDE */}
         <div className="">
           <img
-            src={GrandisLogo1}
+            src={GrandisLogo}
             alt="grandis-logo"
             className="h-[75px] xs:mx-auto sm:mx-auto md:mx-0 lg:mx-0"
           />

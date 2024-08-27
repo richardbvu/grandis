@@ -12,7 +12,8 @@ import Office from "./scenes/office/index.tsx";
 import News from "./scenes/news/index.tsx";
 import Contact from "./scenes/contact/index.tsx";
 import ErrorPage from "./scenes/shared/errorPage.tsx";
-import FoodRamen from "./scenes/food/foodRamen.tsx";
+import FoodSallys from "./scenes/food/foodSallys.tsx";
+import FoodBistro from "./scenes/food/foodBistro.tsx";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,12 @@ const router = createBrowserRouter([
         element: <Food />,
       },
       {
-        path: "food/ramen",
-        element: <FoodRamen />,
+        path: "food/sallys",
+        element: <FoodSallys />,
+      },
+      {
+        path: "food/bistro",
+        element: <FoodBistro />,
       },
       {
         path: "events",

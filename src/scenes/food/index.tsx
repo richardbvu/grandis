@@ -13,12 +13,12 @@ const foods = [
   {
     image: Food1,
     title: "Sally's Super Salad",
-    link: "ramen",
+    link: "sallys",
   },
   {
     image: Food2,
     title: "Blue Horizon Bistro",
-    link: "ramen",
+    link: "bistro",
   },
   {
     image: Food3,
@@ -74,6 +74,7 @@ const Food = () => {
           ))}
         </div>
       </div>
+      n
     </section>
   );
 };
