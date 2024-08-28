@@ -8,7 +8,6 @@ type Props = {
 const FoodLocations = ({ image, title, link }: Props) => {
   return (
     <section>
-      {/* <div className="flex flex-col gap-5"> */}
       <div>
         <div className="flex flex-col gap-4">
           <img

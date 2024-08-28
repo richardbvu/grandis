@@ -14,6 +14,13 @@ import Contact from "./scenes/contact/index.tsx";
 import ErrorPage from "./scenes/shared/errorPage.tsx";
 import FoodSallys from "./scenes/food/foodSallys.tsx";
 import FoodBistro from "./scenes/food/foodBistro.tsx";
+import FoodPho from "./scenes/food/foodPho.tsx";
+import FoodMarigold from "./scenes/food/foodMarigold.tsx";
+import FoodCoastal from "./scenes/food/foodCoastal.tsx";
+import FoodSavoryOak from "./scenes/food/foodSavoryOak.tsx";
+import FoodOliveAndJuni from "./scenes/food/foodOliveAndJuni.tsx";
+import FoodTheWhispering from "./scenes/food/foodTheWhispering.tsx";
+import FoodTavern from "./scenes/food/foodTavern.tsx";
 
 const router = createBrowserRouter([
   {
@@ -31,12 +38,40 @@ const router = createBrowserRouter([
         element: <Food />,
       },
       {
-        path: "food/sallys",
+        path: "food/sallys-super-salad",
         element: <FoodSallys />,
       },
       {
-        path: "food/bistro",
+        path: "food/blue-horizon-bistro",
         element: <FoodBistro />,
+      },
+      {
+        path: "food/velvet-pho",
+        element: <FoodPho />,
+      },
+      {
+        path: "food/marigold-desserts",
+        element: <FoodMarigold />,
+      },
+      {
+        path: "food/coastal-foreign",
+        element: <FoodCoastal />,
+      },
+      {
+        path: "food/the-savory-oak",
+        element: <FoodSavoryOak />,
+      },
+      {
+        path: "food/olive-and-juni",
+        element: <FoodOliveAndJuni />,
+      },
+      {
+        path: "food/the-whispering",
+        element: <FoodTheWhispering />,
+      },
+      {
+        path: "food/radiant-ember-tavern",
+        element: <FoodTavern />,
       },
       {
         path: "events",

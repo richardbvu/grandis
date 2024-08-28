@@ -1,10 +1,10 @@
 import FoodLocations from "./foodLocations";
 import Food1 from "../../assets/Food1.jpg";
 import Food2 from "../../assets/Food2.jpg";
-import Food3 from "../../assets/Food3.jpg";
-import Food4 from "../../assets/Food4.jpg";
+import Food3 from "../../assets/Pho5.jpg";
+import Food4 from "../../assets/Marigold3.jpg";
 import Food5 from "../../assets/Food5.jpg";
-import Food6 from "../../assets/Food6.jpg";
+import Food6 from "../../assets/Oak3.jpg";
 import Food7 from "../../assets/Food7.jpg";
 import Food8 from "../../assets/Food8.jpg";
 import Food9 from "../../assets/Food9.jpg";
@@ -13,47 +13,47 @@ const foods = [
   {
     image: Food1,
     title: "Sally's Super Salad",
-    link: "sallys",
+    link: "sallys-super-salad",
   },
   {
     image: Food2,
     title: "Blue Horizon Bistro",
-    link: "bistro",
+    link: "blue-horizon-bistro",
   },
   {
     image: Food3,
-    title: "Velvet Guardian",
-    link: "ramen",
+    title: "Velvet Pho",
+    link: "velvet-pho",
   },
   {
     image: Food4,
-    title: "Marigold Table",
-    link: "ramen",
+    title: "Marigold Desserts",
+    link: "marigold-desserts",
   },
   {
     image: Food5,
     title: "Coastal Foreign",
-    link: "ramen",
+    link: "coastal-foreign",
   },
   {
     image: Food6,
     title: "The Savory Oak",
-    link: "ramen",
+    link: "the-savory-oak",
   },
   {
     image: Food7,
     title: "Olive & Juni",
-    link: "ramen",
+    link: "olive-and-juni",
   },
   {
     image: Food8,
     title: "The Whispering",
-    link: "ramen",
+    link: "the-whispering",
   },
   {
     image: Food9,
     title: "Radiant Ember Tavern",
-    link: "ramen",
+    link: "radiant-ember-tavern",
   },
 ];
 
@@ -61,9 +61,8 @@ const Food = () => {
   return (
     <section className="mt-[100px]">
       <div className="flex w-full flex-col items-center">
-        {/* <p className="mb-10 text-center text-5xl">NOW OPEN</p> */}
         {/* OPEN LOCATIONS */}
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid gap-10 px-5 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
           {foods.map((food, index) => (
             <FoodLocations
               key={index}
@@ -74,7 +73,6 @@ const Food = () => {
           ))}
         </div>
       </div>
-      n
     </section>
   );
 };

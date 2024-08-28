@@ -59,7 +59,7 @@ const FoodLocationDetails = ({
           </div>
         </div>
         {/* IMAGES */}
-        <div className="grid min-h-[400px] grid-cols-3 xs:gap-1 sm:gap-1 md:gap-5 lg:gap-10">
+        <div className="grid min-h-[400px] xs:grid-cols-2 xs:gap-1 sm:grid-cols-2 sm:gap-1 md:grid-cols-3 md:gap-5 lg:grid-cols-3 lg:gap-10">
           <img
             src={image1 || "null"}
             alt="food-image-1"
