@@ -1,4 +1,4 @@
-import FoodLocations from "./foodLocations";
+import FoodPage from "./foodPage";
 import Food1 from "../../assets/Food1.jpg";
 import Food2 from "../../assets/Food2.jpg";
 import Food3 from "../../assets/Pho5.jpg";
@@ -64,12 +64,12 @@ const Food = () => {
         {/* OPEN LOCATIONS */}
         <div className="grid gap-10 px-5 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
           {foods.map((food, index) => (
-            <FoodLocations
+            <FoodPage
               key={index}
               image={food.image}
               title={food.title}
               link={food.link}
-            ></FoodLocations>
+            ></FoodPage>
           ))}
         </div>
       </div>
