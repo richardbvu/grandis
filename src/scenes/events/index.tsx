@@ -33,7 +33,10 @@ const Events = () => {
             </div>
             <div>
               <div>Fridays:</div>
-              <div className="text-primary-100">Live Music, 5-8PM</div>
+              <div className="text-primary-100">
+                Live Music, 5-8PM
+                {/* <div className="z-[-10] before:absolute before:left-[70%] before:top-[1%] before:content-sparkles"></div> */}
+              </div>
             </div>
           </div>
         </div>
