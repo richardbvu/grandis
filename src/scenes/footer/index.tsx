@@ -28,31 +28,31 @@ const Footer = () => {
             <p className="text-lg font-bold">Pages</p>
             <Link
               to={"food"}
-              className="text-white underline underline-offset-4 transition duration-300 hover:text-black"
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
             >
               Food
             </Link>
             <Link
               to={"events"}
-              className="text-white underline underline-offset-4 transition duration-300 hover:text-black"
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
             >
               Events
             </Link>
             <Link
               to={"art"}
-              className="text-white underline underline-offset-4 transition duration-300 hover:text-black"
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
             >
               Art
             </Link>
             <Link
               to={"about"}
-              className="text-white underline underline-offset-4 transition duration-300 hover:text-black"
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
             >
               About
             </Link>
             <Link
               to={"news"}
-              className="text-white underline underline-offset-4 transition duration-300 hover:text-black"
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
             >
               News
             </Link>
