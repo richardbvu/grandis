@@ -21,6 +21,9 @@ export default {
         arrow: "url('./assets/Arrow.png')",
         circles: "url('./assets/Circles.png')",
       },
+      backgroundImage: {
+        office_pattern: "url('./assets/Polka-dots.svg')",
+      },
     },
     screens: {
       xs: "480px",

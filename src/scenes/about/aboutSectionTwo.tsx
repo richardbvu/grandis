@@ -25,7 +25,7 @@ const AboutSectionTwo = () => {
             </div>
           </div>
           {/* CIRCLE BACKGROUND */}
-          <div className="z-[-10] before:absolute before:left-[70%] before:top-[1%] before:content-circles"></div>
+          <div className="z-[-10] before:absolute before:right-[10%] before:top-[40%] before:content-arrow xs:hidden md:flex"></div>
         </div>
       </div>
     </section>

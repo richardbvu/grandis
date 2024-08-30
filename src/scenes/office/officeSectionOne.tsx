@@ -8,11 +8,15 @@ const OfficeSectionOne = () => {
           <img
             src={Office1}
             alt="office-image"
-            className="h-[5000px] max-h-[87%] object-cover"
+            className="h-[5000px] max-h-[87%] w-full object-cover"
           />
-          <div className="mx-auto mt-[-600px] w-[50%] text-nowrap text-center text-white drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:text-2xl sm:text-4xl md:text-5xl lg:text-7xl">
-            <div className="mb-5">Your new office is at</div>
-            <div className="italic">The Enclave.</div>
+          <div className="mx-auto mt-[-500px] w-[50%] text-nowrap text-center text-white drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
+            <div className="mb-5 flex justify-center">
+              Your new office is at
+            </div>
+            <div className="mx-auto flex justify-center italic">
+              The Grandis.
+            </div>
           </div>
         </div>
       </div>

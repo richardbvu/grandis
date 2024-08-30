@@ -8,7 +8,7 @@ const HomeSectionThree = () => {
           We’ve made it easier to attract & retain employees by developing a
           lifestyle environment to complement the 500K SF Class “A" office
           space.
-          <div className="z-[-10] before:absolute before:left-[70%] before:top-[1%] before:content-abstractwaves"></div>
+          <div className="z-[-10] before:absolute before:left-[70%] before:top-[1%] before:content-abstractwaves xs:hidden sm:hidden md:flex"></div>
         </div>
         <div className="mx-auto flex basis-6/12">
           <img
