@@ -105,6 +105,7 @@ const Navbar = () => {
               </div>
               <div className="mx-auto mt-10 flex flex-col items-center justify-center gap-8">
                 <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                   to={"/"}
                   className={({ isActive }) =>
                     isActive ? "text-white" : "hover:text-white"
@@ -113,6 +114,7 @@ const Navbar = () => {
                   <div className="hover:text-white">Home</div>
                 </NavLink>
                 <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                   to={"food"}
                   className={({ isActive }) =>
                     isActive ? "text-white" : "hover:text-white"
@@ -121,6 +123,7 @@ const Navbar = () => {
                   Food
                 </NavLink>
                 <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                   to={"events"}
                   className={({ isActive }) =>
                     isActive ? "text-white" : "hover:text-white"
@@ -129,6 +132,7 @@ const Navbar = () => {
                   Events
                 </NavLink>
                 <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                   to={"art"}
                   className={({ isActive }) =>
                     isActive ? "text-white" : "hover:text-white"
@@ -137,6 +141,7 @@ const Navbar = () => {
                   Art
                 </NavLink>
                 <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                   to={"about"}
                   className={({ isActive }) =>
                     isActive ? "text-white" : "hover:text-white"
@@ -145,6 +150,7 @@ const Navbar = () => {
                   About
                 </NavLink>
                 <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
                   to={"contact"}
                   className={({ isActive }) =>
                     isActive ? "text-white" : "hover:text-white"

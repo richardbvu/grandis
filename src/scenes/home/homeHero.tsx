@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const HomeHero = () => {
   return (
     <section className="w-full">
-      <div className="relative h-screen">
+      <div className="relative">
         <img
           src={HeroImage1}
           alt="home-page-image"
-          // className="w-fit xs:h-[300px] sm:h-auto md:h-auto lg:h-auto"
-          className="h-[1000px] max-h-[87%] w-full object-cover"
+          className="h-screen min-h-[500px] w-full object-cover"
         />
-        <div className="absolute top-[250px] flex flex-col gap-5 drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:left-[100px] xs:items-center xs:gap-1 sm:left-[170px] sm:items-start md:left-[200px] md:items-start lg:left-[220px] lg:items-start">
+        {/* <div className="absolute top-[250px] flex flex-col gap-5 drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:left-[100px] xs:items-center xs:gap-1 sm:left-[170px] sm:items-start md:left-[200px] md:items-start lg:left-[220px] lg:items-start"> */}
+        <div className="absolute top-[25%] flex flex-col gap-5 drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:left-[100px] xs:items-center xs:gap-1 sm:left-[170px] sm:items-start md:left-[200px] md:items-start lg:left-[220px] lg:items-start">
           <p className="text-white xs:text-3xl sm:text-5xl md:text-7xl lg:text-8xl">
             Your place to explore
           </p>
