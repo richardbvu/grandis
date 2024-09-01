@@ -6,12 +6,15 @@ const Footer = () => {
     <footer className="mx-auto mt-[150px] w-full">
       <div className="flex justify-evenly gap-[40px] bg-primary-100 py-10 xs:flex-col xs:items-center xs:text-center sm:flex-col md:flex-row md:text-start lg:flex-row lg:text-start">
         {/* LEFT SIDE */}
-        <div className="">
-          <img
-            src={GrandisLogo}
-            alt="grandis-logo"
-            className="h-[75px] xs:mx-auto sm:mx-auto md:mx-0 lg:mx-0"
-          />
+        <div>
+          <Link to={"/"}>
+            <img
+              src={GrandisLogo}
+              alt="grandis-logo"
+              className="h-[75px] xs:mx-auto sm:mx-auto md:mx-0 lg:mx-0"
+            />
+          </Link>
+
           {/* <p>The Grandis</p> */}
           <div className="my-5">
             <p>912 W 111th St Torrance </p>
@@ -50,12 +53,12 @@ const Footer = () => {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to={"news"}
               className="underline underline-offset-4 transition duration-300 hover:text-white"
             >
               News
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

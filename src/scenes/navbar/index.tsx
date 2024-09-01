@@ -81,7 +81,7 @@ const Navbar = () => {
               to={"contact"}
               className={({ isActive }) =>
                 isActive
-                  ? "rounded-lg bg-primary-100 px-5 py-[5px] text-white"
+                  ? "rounded-lg border-[1px] border-primary-100 bg-primary-100 px-5 py-[5px] font-bold text-white"
                   : "rounded-lg border-[1px] border-black px-5 py-[5px] font-bold hover:border-primary-100 hover:bg-primary-100 hover:text-white"
               }
             >
