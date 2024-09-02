@@ -1,5 +1,6 @@
 import HomeSectionThreeImage1 from "../../assets/HomeSectionThreeImage1.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const HomeSectionThree = () => {
   return (
@@ -16,6 +17,7 @@ const HomeSectionThree = () => {
             src={HomeSectionThreeImage1}
             alt="home-section-three-image"
             className="h-auto rounded"
+            effect="blur"
           />
         </div>
       </div>

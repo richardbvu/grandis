@@ -3,6 +3,7 @@ import ArtImage2 from "../../assets/ArtImage2.jpg";
 import ArtImage3 from "../../assets/ArtImage3.jpg";
 import ArtImage4 from "../../assets/ArtImage4.jpg";
 import ArtImage5 from "../../assets/ArtImage5.jpg";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ArtSectionTwo = () => {
   return (

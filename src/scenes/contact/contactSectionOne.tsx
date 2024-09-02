@@ -4,9 +4,9 @@ import ContactImage1 from "../../assets/ContactImage1.jpg";
 const ContactSectionOne = () => {
   return (
     <section className="w-full py-[100px]">
-      <div className="mx-auto flex w-[50%] items-center justify-around gap-[100px] xs:flex-col sm:flex-col md:flex-col lg:flex-row">
+      <div className="mx-auto flex items-center justify-around gap-[100px] xs:flex-col sm:w-[60%] sm:flex-col md:w-[60%] md:flex-col lg:w-[50%] lg:flex-row">
         {/* IMAGE */}
-        <div className="h-[330px] w-[500px] xs:order-2 sm:order-2 md:order-2 lg:order-1">
+        <div className="xs:order-2 sm:order-2 md:order-2 lg:order-1">
           <motion.img
             initial="hidden"
             whileInView="visible"
@@ -18,13 +18,12 @@ const ContactSectionOne = () => {
             }}
             src={ContactImage1}
             alt="Grandis-image"
-            className="mx-auto rounded object-cover"
-            // className="mx-auto h-[400px] w-[400px] rounded"
+            className="mx-auto w-full items-center rounded object-cover xs:hidden sm:flex"
           />
         </div>
         {/* CONTACT INFORMATION */}
         <div className="text-nowrap xs:order-1 sm:order-1 md:order-1 lg:order-2">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 xs:text-center lg:text-start">
             <motion.p
               initial="hidden"
               whileInView="visible"

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 type Props = {
   image: string;
@@ -29,6 +30,7 @@ const FoodLocations = ({ image, title, link }: Props) => {
             src={image}
             alt="food-image"
             className="h-[300px] w-[400px] rounded"
+            effect="blur"
           />
           <div className="w-fit text-3xl">{title}</div>
         </motion.div>

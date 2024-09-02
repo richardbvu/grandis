@@ -1,5 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import OfficeSectionTwoImage1 from "../../assets/OfficeSection2Image1.jpg";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const OfficeSectionTwo = () => {
   return (
@@ -10,6 +11,7 @@ const OfficeSectionTwo = () => {
             src={OfficeSectionTwoImage1}
             alt="home-section-three-image"
             className="h-auto rounded"
+            effect="blur"
           />
         </div>
         <div className="relative mx-auto flex basis-6/12 items-center justify-center xs:text-center xs:text-2xl sm:text-start sm:text-2xl md:text-start md:text-3xl lg:text-start lg:text-4xl">

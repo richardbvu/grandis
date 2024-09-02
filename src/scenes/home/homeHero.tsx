@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import HeroImage1 from "../../assets/HeroImage1.png";
 import { Link } from "react-router-dom";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const HomeHero = () => {
   return (
