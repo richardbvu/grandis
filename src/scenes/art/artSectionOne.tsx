@@ -1,9 +1,18 @@
+import { motion } from "framer-motion";
 import ArtImage1 from "../../assets/ArtImage1.jpg";
 
 const ArtSectionOne = () => {
   return (
     <section>
-      <img
+      <motion.img
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        transition={{ duration: 1 }}
+        variants={{
+          hidden: { opacity: 0 },
+          visible: { opacity: 1 },
+        }}
         src={ArtImage1}
         alt="home-page-image"
         // className="w-fit xs:h-[400px] sm:h-auto md:h-auto lg:h-auto"

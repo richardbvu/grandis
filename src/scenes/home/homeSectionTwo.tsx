@@ -7,7 +7,7 @@ const HomeSectionTwo = () => {
         <div>
           <img
             src={HomeSectionTwoImage1}
-            alt=""
+            alt="Picnic-table-image"
             className="h-[500px] w-full object-cover"
           />
           <div className="mx-auto mt-[-310px] w-[50%] text-center text-white drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl">

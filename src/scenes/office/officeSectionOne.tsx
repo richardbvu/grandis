@@ -1,10 +1,19 @@
+import { motion } from "framer-motion";
 import Office1 from "../../assets/Office1.jpg";
 
 const OfficeSectionOne = () => {
   return (
     <section className="mb-[250px]">
       <div className="relative">
-        <img
+        <motion.img
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1 },
+          }}
           src={Office1}
           alt="office-image"
           // className="h-[5000px] max-h-[87%] w-full object-cover"

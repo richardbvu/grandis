@@ -1,4 +1,4 @@
-import { StrictMode, Suspense } from "react";
+import React, { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -9,7 +9,6 @@ import Events from "./scenes/events/index.tsx";
 import Art from "./scenes/art/index.tsx";
 import About from "./scenes/about/index.tsx";
 import Office from "./scenes/office/index.tsx";
-import News from "./scenes/news/index.tsx";
 import Contact from "./scenes/contact/index.tsx";
 import ErrorPage from "./scenes/shared/errorPage.tsx";
 import FoodSallys from "./scenes/food/foodSallys.tsx";
@@ -22,84 +21,108 @@ import FoodOliveAndJuni from "./scenes/food/foodOliveAndJuni.tsx";
 import FoodTheWhispering from "./scenes/food/foodTheWhispering.tsx";
 import FoodTavern from "./scenes/food/foodTavern.tsx";
 
+const HomeLazy = React.lazy(() => import("./scenes/home/index.tsx"));
+const FoodLazy = React.lazy(() => import("./scenes/food/index.tsx"));
+const EventsLazy = React.lazy(() => import("./scenes/events/index.tsx"));
+const ArtLazy = React.lazy(() => import("./scenes/art/index.tsx"));
+const AboutLazy = React.lazy(() => import("./scenes/about/index.tsx"));
+const OfficeLazy = React.lazy(() => import("./scenes/office/index.tsx"));
+const ContactLazy = React.lazy(() => import("./scenes/contact/index.tsx"));
+const ErrorPageLazy = React.lazy(() => import("./scenes/shared/errorPage.tsx"));
+const FoodSallysLazy = React.lazy(() => import("./scenes/food/foodSallys.tsx"));
+const FoodBistroLazy = React.lazy(() => import("./scenes/food/foodBistro.tsx"));
+const FoodPhoLazy = React.lazy(() => import("./scenes/food/foodPho.tsx"));
+const FoodMarigoldLazy = React.lazy(
+  () => import("./scenes/food/foodMarigold.tsx"),
+);
+const FoodCoastalLazy = React.lazy(
+  () => import("./scenes/food/foodCoastal.tsx"),
+);
+const FoodSavoryOakLazy = React.lazy(
+  () => import("./scenes/food/foodSavoryOak.tsx"),
+);
+const FoodOliveAndJuniLazy = React.lazy(
+  () => import("./scenes/food/foodOliveAndJuni.tsx"),
+);
+const FoodTheWhisperingLazy = React.lazy(
+  () => import("./scenes/food/foodTheWhispering.tsx"),
+);
+const FoodTavernLazy = React.lazy(() => import("./scenes/food/foodTavern.tsx"));
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <PageLayout />,
-    errorElement: <ErrorPage />,
+    element: (
+      <Suspense fallback={<div></div>}>
+        <PageLayout />
+      </Suspense>
+    ),
+    errorElement: <ErrorPageLazy />,
     children: [
       {
         index: true,
         path: "/",
-        element: <Home />,
+        element: <HomeLazy />,
       },
       {
         path: "food",
-        element: <Food />,
+        element: <FoodLazy />,
       },
       {
         path: "food/sallys-super-salad",
-        element: <FoodSallys />,
+        element: <FoodSallysLazy />,
       },
       {
         path: "food/blue-horizon-bistro",
-        element: <FoodBistro />,
+        element: <FoodBistroLazy />,
       },
       {
         path: "food/velvet-pho",
-        element: <FoodPho />,
+        element: <FoodPhoLazy />,
       },
       {
         path: "food/marigold-desserts",
-        element: <FoodMarigold />,
+        element: <FoodMarigoldLazy />,
       },
       {
         path: "food/coastal-foreign",
-        element: <FoodCoastal />,
+        element: <FoodCoastalLazy />,
       },
       {
         path: "food/the-savory-oak",
-        element: <FoodSavoryOak />,
+        element: <FoodSavoryOakLazy />,
       },
       {
         path: "food/olive-and-juni",
-        element: <FoodOliveAndJuni />,
+        element: <FoodOliveAndJuniLazy />,
       },
       {
         path: "food/the-whispering",
-        element: <FoodTheWhispering />,
+        element: <FoodTheWhisperingLazy />,
       },
       {
         path: "food/radiant-ember-tavern",
-        element: <FoodTavern />,
+        element: <FoodTavernLazy />,
       },
       {
         path: "events",
-        element: <Events />,
+        element: <EventsLazy />,
       },
       {
         path: "art",
-        element: <Art />,
+        element: <ArtLazy />,
       },
       {
         path: "about",
-        element: <About />,
+        element: <AboutLazy />,
       },
       {
         path: "office",
-        element: <Office />,
-      },
-      {
-        path: "news",
-        element: <News />,
+        element: <OfficeLazy />,
       },
       {
         path: "contact",
-        element: <Contact />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
+        element: <ContactLazy />,
       },
     ],
   },

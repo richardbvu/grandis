@@ -53,6 +53,18 @@ const Footer = () => {
             >
               About
             </Link>
+            <Link
+              to={"office"}
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
+            >
+              Office
+            </Link>
+            <Link
+              to={"contact"}
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
+            >
+              Contact
+            </Link>
             {/* <Link
               to={"news"}
               className="underline underline-offset-4 transition duration-300 hover:text-white"

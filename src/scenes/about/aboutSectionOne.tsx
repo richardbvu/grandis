@@ -1,11 +1,21 @@
+import { motion } from "framer-motion";
 import AboutSection1 from "../../assets/AboutSection1.jpg";
+motion;
 
 const AboutSectionOne = () => {
   return (
     <section>
       <div className="w-full">
         <div>
-          <img
+          <motion.img
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1 }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: { opacity: 1 },
+            }}
             src={AboutSection1}
             alt=""
             // className="xs:h-[340px] sm:h-auto md:h-auto lg:h-auto"
