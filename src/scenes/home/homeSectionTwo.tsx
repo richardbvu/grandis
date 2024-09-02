@@ -1,11 +1,12 @@
 import HomeSectionTwoImage1 from "../../assets/HomeSectionTwoImage1.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionTwo = () => {
   return (
     <section>
       <div className="w-full">
         <div>
-          <img
+          <LazyLoadImage
             src={HomeSectionTwoImage1}
             alt="Picnic-table-image"
             className="h-[500px] w-full object-cover"

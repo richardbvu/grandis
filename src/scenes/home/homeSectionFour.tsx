@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
 import HomeSectionFourImage1 from "../../assets/HomeSectionFourImage1.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionFour = () => {
   return (
     <section>
       <div>
         <div>
-          <img
+          <LazyLoadImage
             src={HomeSectionFourImage1}
             alt="home-section-four-image"
             className="h-[500px] w-full object-cover"

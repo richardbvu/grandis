@@ -1,4 +1,5 @@
 import HomeSectionThreeImage1 from "../../assets/HomeSectionThreeImage1.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionThree = () => {
   return (
@@ -11,7 +12,7 @@ const HomeSectionThree = () => {
           <div className="z-[-10] before:absolute before:left-[70%] before:top-[1%] before:content-abstractwaves xs:hidden sm:hidden md:flex"></div>
         </div>
         <div className="mx-auto flex basis-6/12">
-          <img
+          <LazyLoadImage
             src={HomeSectionThreeImage1}
             alt="home-section-three-image"
             className="h-auto rounded"
