@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 type Props = {
   image: string;
@@ -24,18 +25,12 @@ const FoodLocations = ({ image, title, link }: Props) => {
           }}
           className="flex flex-col gap-4"
         >
-          <img
+          <LazyLoadImage
             src={image}
             alt="food-image"
             className="h-[300px] w-[400px] rounded"
           />
           <div className="w-fit text-3xl">{title}</div>
-          {/* <Link
-            to={`${link}`}
-            className="w-fit rounded bg-gray-300 px-5 py-2 transition duration-300 hover:bg-gray-200 hover:text-white"
-          >
-            VISIT
-          </Link> */}
         </motion.div>
       </Link>
     </section>
