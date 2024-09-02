@@ -15,7 +15,6 @@ const Footer = () => {
             />
           </Link>
 
-          {/* <p>The Grandis</p> */}
           <div className="my-5">
             <p>912 W 111th St Torrance </p>
             <p>Torrance, CA 90502</p>
@@ -29,6 +28,12 @@ const Footer = () => {
         <div>
           <div className="flex flex-col gap-4">
             <p className="text-lg font-bold">Pages</p>
+            <Link
+              to={"/"}
+              className="underline underline-offset-4 transition duration-300 hover:text-white"
+            >
+              Home
+            </Link>
             <Link
               to={"food"}
               className="underline underline-offset-4 transition duration-300 hover:text-white"

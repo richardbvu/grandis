@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import ArtImage2 from "../../assets/ArtImage2.jpg";
 import ArtImage3 from "../../assets/ArtImage3.jpg";
 import ArtImage4 from "../../assets/ArtImage4.jpg";
@@ -8,7 +9,7 @@ const ArtSectionTwo = () => {
     <div className="flex flex-col gap-[150px]">
       <div className="flex flex-col gap-10">
         <div className="mx-auto">
-          <img
+          <LazyLoadImage
             src={ArtImage2}
             alt="elephant-image"
             className="w-[1000px] rounded px-5"
@@ -29,7 +30,7 @@ const ArtSectionTwo = () => {
       </div>
       <div className="flex flex-col gap-10">
         <div className="mx-auto">
-          <img
+          <LazyLoadImage
             src={ArtImage3}
             alt="hearts-image"
             className="w-[1000px] rounded px-5"
@@ -50,7 +51,7 @@ const ArtSectionTwo = () => {
       </div>
       <div className="flex flex-col gap-10">
         <div className="mx-auto">
-          <img
+          <LazyLoadImage
             src={ArtImage4}
             alt="woman-art-image"
             className="w-[1000px] rounded px-5"
@@ -76,7 +77,7 @@ const ArtSectionTwo = () => {
       </div>
       <div className="flex flex-col gap-10">
         <div className="mx-auto">
-          <img
+          <LazyLoadImage
             src={ArtImage5}
             alt="beautiful-woman-art-image"
             className="w-[1000px] rounded px-5"

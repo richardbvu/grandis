@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import OfficeSectionTwoImage1 from "../../assets/OfficeSection2Image1.jpg";
 
 const OfficeSectionTwo = () => {
@@ -5,7 +6,7 @@ const OfficeSectionTwo = () => {
     <section className="mx-auto mt-[-250px] w-[90%]">
       <div className="mx-auto flex w-[90%] gap-10 xs:flex-col sm:flex-row md:flex-row lg:flex-row">
         <div className="mx-auto flex basis-6/12">
-          <img
+          <LazyLoadImage
             src={OfficeSectionTwoImage1}
             alt="home-section-three-image"
             className="h-auto rounded"

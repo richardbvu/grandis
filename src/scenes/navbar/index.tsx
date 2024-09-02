@@ -24,6 +24,14 @@ const Navbar = () => {
             {/* LINKS */}
             <div className="flex gap-7">
               <NavLink
+                to={"/"}
+                className={({ isActive }) =>
+                  isActive ? "text-primary-100" : ""
+                }
+              >
+                <div className="hover:text-primary-100">Home</div>
+              </NavLink>
+              <NavLink
                 to={"food"}
                 className={({ isActive }) =>
                   isActive ? "text-primary-100" : ""
@@ -63,9 +71,6 @@ const Navbar = () => {
               >
                 <div className="hover:text-primary-100">Office</div>
               </NavLink>
-              {/* <Link to={"news"}>
-                <div className="hover:text-primary-100">News</div>
-              </Link> */}
             </div>
             {/* ICONS */}
             <div className="flex gap-7">
