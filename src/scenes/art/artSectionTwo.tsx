@@ -13,10 +13,10 @@ const ArtSectionTwo = () => {
           <LazyLoadImage
             src={ArtImage2}
             alt="elephant-image"
-            className="w-[1000px] rounded px-5"
+            className="mx-auto rounded px-5 xs:w-[90%] sm:w-[79%] md:w-[69%] lg:w-[70%]"
           />
         </div>
-        <div className="mx-auto flex flex-col gap-5 xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[45%]">
+        <div className="mx-auto flex flex-col gap-5 xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[68%]">
           <div className="text-5xl text-gray-100">Elephant</div>
           <div>
             My collaborator and I designed this mural to honor The Richard
@@ -34,10 +34,10 @@ const ArtSectionTwo = () => {
           <LazyLoadImage
             src={ArtImage3}
             alt="hearts-image"
-            className="w-[1000px] rounded px-5"
+            className="mx-auto rounded px-5 xs:w-[90%] sm:w-[79%] md:w-[69%] lg:w-[70%]"
           />
         </div>
-        <div className="mx-auto flex flex-col gap-5 after:text-end xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[45%]">
+        <div className="mx-auto flex flex-col gap-5 text-end xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[68%]">
           <div className="text-5xl text-gray-100">Hearts</div>
           <div>
             We should all aim to have a big heart in life, and this artwork
@@ -55,10 +55,10 @@ const ArtSectionTwo = () => {
           <LazyLoadImage
             src={ArtImage4}
             alt="woman-art-image"
-            className="w-[1000px] rounded px-5"
+            className="mx-auto rounded px-5 xs:w-[90%] sm:w-[79%] md:w-[69%] lg:w-[70%]"
           />
         </div>
-        <div className="mx-auto flex flex-col gap-5 text-start xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[45%]">
+        <div className="mx-auto flex flex-col gap-5 text-start xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[68%]">
           <div className="text-5xl text-gray-100">Woman</div>
           <div>
             This modern painting depicts a vibrant and colorful portrait of a
@@ -81,10 +81,10 @@ const ArtSectionTwo = () => {
           <LazyLoadImage
             src={ArtImage5}
             alt="beautiful-woman-art-image"
-            className="w-[1000px] rounded px-5"
+            className="mx-auto rounded px-5 xs:w-[90%] sm:w-[79%] md:w-[69%] lg:w-[70%]"
           />
         </div>
-        <div className="mx-auto flex flex-col gap-5 text-end xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[45%]">
+        <div className="mx-auto flex flex-col gap-5 text-end xs:w-[80%] sm:w-[75%] md:w-[65%] lg:w-[68%]">
           <div className="text-5xl text-gray-100">Beauty</div>
           <div>
             This painting captures a striking and enigmatic portrayal of a

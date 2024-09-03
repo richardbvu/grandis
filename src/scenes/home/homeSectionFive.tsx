@@ -82,8 +82,8 @@ const HomeSectionFive = () => {
               )}
             </div>
             {/* BUTTON */}
-            <div className="">
-              <button type="submit" className="">
+            <div>
+              <button type="submit">
                 <div className="flex h-[60px] w-[100px] items-center justify-center rounded-lg bg-primary-100 text-white transition duration-300 hover:bg-primary-200">
                   Submit
                 </div>

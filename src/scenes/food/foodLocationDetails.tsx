@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import ErrorImg from "../../assets/errorImg.png";
 import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 type Props = {
   title: string;
@@ -78,6 +79,7 @@ const FoodLocationDetails = ({
               onError={(e) => {
                 e.currentTarget.src = ErrorImg;
               }}
+              effect="blur"
             />
           </motion.div>
           <motion.div
@@ -96,6 +98,7 @@ const FoodLocationDetails = ({
               onError={(e) => {
                 e.currentTarget.src = ErrorImg;
               }}
+              effect="blur"
             />
           </motion.div>
           <motion.div
@@ -114,6 +117,7 @@ const FoodLocationDetails = ({
               onError={(e) => {
                 e.currentTarget.src = ErrorImg;
               }}
+              effect="blur"
             />
           </motion.div>
           <motion.div
@@ -132,6 +136,7 @@ const FoodLocationDetails = ({
               onError={(e) => {
                 e.currentTarget.src = ErrorImg;
               }}
+              effect="blur"
             />
           </motion.div>
           <motion.div
@@ -150,6 +155,7 @@ const FoodLocationDetails = ({
               onError={(e) => {
                 e.currentTarget.src = ErrorImg;
               }}
+              effect="blur"
             />
           </motion.div>
           <motion.div
@@ -168,84 +174,9 @@ const FoodLocationDetails = ({
               onError={(e) => {
                 e.currentTarget.src = ErrorImg;
               }}
+              effect="blur"
             />
           </motion.div>
-
-          {/* <motion.img
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1 },
-            }}
-            src={image2 || "null"}
-            alt="food-image-2"
-            onError={(e) => {
-              e.currentTarget.src = ErrorImg;
-            }}
-          />
-          <motion.img
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1 },
-            }}
-            src={image3 || "null"}
-            alt="food-image-3"
-            onError={(e) => {
-              e.currentTarget.src = ErrorImg;
-            }}
-          />
-          <motion.img
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1 },
-            }}
-            src={image4 || "null"}
-            alt="food-image-4"
-            onError={(e) => {
-              e.currentTarget.src = ErrorImg;
-            }}
-          />
-          <motion.img
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1 },
-            }}
-            src={image5 || "null"}
-            alt="food-image-5"
-            onError={(e) => {
-              e.currentTarget.src = ErrorImg;
-            }}
-          />
-          <motion.img
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            variants={{
-              hidden: { opacity: 0 },
-              visible: { opacity: 1 },
-            }}
-            src={image6 || "null"}
-            alt="food-image-6"
-            onError={(e) => {
-              e.currentTarget.src = ErrorImg;
-            }}
-          /> */}
         </div>
         <div className="mt-[100px]">
           <Link to={"/food"}>

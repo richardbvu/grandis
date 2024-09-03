@@ -1,6 +1,6 @@
 import Grandis from "../../assets/GrandisLogo.png";
 import { Link, NavLink } from "react-router-dom";
-import { FaInstagram, FaFacebookF, FaBars } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { useState } from "react";
@@ -14,9 +14,9 @@ const Navbar = () => {
       <div className="mx-auto flex max-w-[81%] items-center justify-between py-6">
         {/* LEFT SIDE  */}
         <div>
-          <a href="/">
+          <Link to={"/"}>
             <img className="h-[75px]" src={Grandis} alt="grandis-logo" />
-          </a>
+          </Link>
         </div>
         {/* RIGHT SIDE  */}
         {isAboveMediumScreens ? (
@@ -73,14 +73,14 @@ const Navbar = () => {
               </NavLink>
             </div>
             {/* ICONS */}
-            <div className="flex gap-7">
-              <Link to={"/"}>
+            {/* <div className="flex gap-7">
+              <a href="">
                 <FaInstagram className="h-5 w-5 hover:text-primary-100" />
-              </Link>
-              <Link to={"/"}>
+              </a>
+              <a href="">
                 <FaFacebookF className="h-5 w-5 hover:text-primary-100" />
-              </Link>
-            </div>
+              </a>
+            </div> */}
             {/* CONTACT */}
             <NavLink
               to={"contact"}
@@ -95,7 +95,7 @@ const Navbar = () => {
           </div>
         ) : (
           <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-            <FaBars className="h-6 w-6" />
+            <FaBars className="h-6 w-6 transition duration-300 hover:text-primary-100" />
           </button>
         )}
         {/* MODAL MENU */}
@@ -105,7 +105,7 @@ const Navbar = () => {
               <div className="flex justify-end">
                 <FaXmark
                   onClick={() => setIsMenuToggled(!isMenuToggled)}
-                  className="h-6 w-6 hover:cursor-pointer hover:text-white"
+                  className="h-6 w-6 transition duration-300 hover:cursor-pointer hover:text-white"
                 />
               </div>
               <div className="mx-auto mt-10 flex flex-col items-center justify-center gap-8">
@@ -153,6 +153,15 @@ const Navbar = () => {
                   }
                 >
                   About
+                </NavLink>
+                <NavLink
+                  onClick={() => setIsMenuToggled(!isMenuToggled)}
+                  to={"office"}
+                  className={({ isActive }) =>
+                    isActive ? "text-white" : "hover:text-white"
+                  }
+                >
+                  Office
                 </NavLink>
                 <NavLink
                   onClick={() => setIsMenuToggled(!isMenuToggled)}
