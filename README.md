@@ -1,9 +1,9 @@
 # About the project
 
-A modern and responsive website for an optometrist's office, developed using TypeScript, Tailwind CSS, and React. Showcasing the optometrist's services, expertise, contact information and appointment booking.
+The Grandis is an image-focused, visually captivating website that highlights a modern lifestyle destination combining office spaces, dining, art, and activities.
 
 
-Live Demo : [Live Demo](https://richard-optometry.vercel.app/](https://thegrandis.vercel.app/)
+Live Demo : [Live Demo](https://thegrandis.vercel.app/)
 
 # Screenshot of the Project 
 
