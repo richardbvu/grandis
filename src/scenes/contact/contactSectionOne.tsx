@@ -4,21 +4,21 @@ import ContactImage1 from "../../assets/ContactImage1.jpg";
 const ContactSectionOne = () => {
   return (
     <section className="w-full py-[100px]">
-      <div className="mx-auto flex items-center justify-around gap-[100px] xs:flex-col sm:w-[60%] sm:flex-col md:w-[60%] md:flex-col lg:w-[50%] lg:flex-row">
+      <div className="mx-auto flex items-center justify-center gap-[100px] px-10 xs:flex-col sm:flex-col md:flex-col lg:flex-row">
         {/* IMAGE */}
         <div className="xs:order-2 sm:order-2 md:order-2 lg:order-1">
           <motion.img
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             variants={{
               hidden: { opacity: 0 },
               visible: { opacity: 1 },
             }}
             src={ContactImage1}
             alt="Grandis-image"
-            className="mx-auto w-full items-center rounded object-cover xs:hidden sm:flex"
+            className="flex h-[400px] rounded object-cover xs:hidden sm:flex"
           />
         </div>
         {/* CONTACT INFORMATION */}
@@ -28,7 +28,7 @@ const ContactSectionOne = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.5 }}
               variants={{
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
@@ -41,7 +41,7 @@ const ContactSectionOne = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.25 }}
-              transition={{ duration: 1, delay: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               variants={{
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
@@ -56,7 +56,7 @@ const ContactSectionOne = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
-                transition={{ duration: 1, delay: 0.6 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
                 variants={{
                   hidden: { opacity: 0, x: -50 },
                   visible: { opacity: 1, x: 0 },
@@ -68,7 +68,7 @@ const ContactSectionOne = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.25 }}
-                transition={{ duration: 1, delay: 0.7 }}
+                transition={{ duration: 0.5, delay: 0.7 }}
                 variants={{
                   hidden: { opacity: 0, x: -50 },
                   visible: { opacity: 1, x: 0 },

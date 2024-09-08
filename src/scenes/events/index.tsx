@@ -4,12 +4,12 @@ import EventsImg from "../../assets/EventsImg.png";
 const Events = () => {
   return (
     <section className="py-[100px]">
-      <div className="flex gap-[100px] px-20 xs:flex-col sm:flex-col md:flex-row lg:flex-row">
+      <div className="flex px-20 xs:flex-col sm:flex-col md:flex-row md:gap-[100px] lg:flex-row">
         <div>
           <img
             src={EventsImg}
             alt="event-image"
-            className="h-[660px] rounded xs:hidden sm:hidden md:flex"
+            className="h-[660px] min-w-[550px] rounded xs:hidden sm:hidden md:flex"
           />
         </div>
         <div className="flex flex-col gap-10">

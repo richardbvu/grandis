@@ -10,7 +10,7 @@ const AboutSectionTwo = () => {
           <LazyLoadImage
             src={AboutSection2}
             alt="home-section-three-image"
-            className="aspect-auto rounded"
+            className="h-auto rounded object-cover"
           />
         </div>
         <div className="relative mx-auto flex basis-6/12 items-center justify-center xs:text-center xs:text-lg sm:text-start sm:text-2xl md:text-start md:text-3xl lg:text-start lg:text-4xl">
@@ -20,7 +20,7 @@ const AboutSectionTwo = () => {
               restaurants, activated outdoor common areas, art installations,
               and year-round events.
             </p>
-            <div className="my-5 xs:text-center xs:text-base sm:text-center sm:text-lg md:text-start md:text-2xl lg:text-start lg:text-3xl">
+            <div className="my-5 xs:text-center xs:text-lg sm:text-center sm:text-2xl md:text-start md:text-2xl lg:text-start lg:text-3xl">
               <p>912 W 111th St Torrance </p>
               <p>Torrance, CA 90502</p>
               <a href="tel:5551234512">(555) 123-4512</a>

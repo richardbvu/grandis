@@ -7,7 +7,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const HomeHero = () => {
   return (
     <section className="w-full">
-      <div className="relative">
+      <div className="relative w-full">
         <motion.div
           initial="hidden"
           whileInView="visible"

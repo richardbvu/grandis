@@ -5,12 +5,12 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 const OfficeSectionTwo = () => {
   return (
     <section className="mx-auto mt-[-250px] w-[90%]">
-      <div className="mx-auto flex w-[90%] gap-10 xs:flex-col sm:flex-row md:flex-row lg:flex-row">
+      <div className="mx-auto flex min-h-[400px] w-[90%] gap-10 xs:flex-col sm:flex-col md:flex-row lg:flex-row">
         <div className="mx-auto flex basis-6/12">
           <LazyLoadImage
             src={OfficeSectionTwoImage1}
             alt="home-section-three-image"
-            className="h-auto rounded"
+            className="h-auto rounded object-cover"
             effect="blur"
           />
         </div>
