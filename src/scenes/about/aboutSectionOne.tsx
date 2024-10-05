@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import AboutSection1 from "../../assets/AboutSection1.jpg";
+import AboutSection1 from "../../assets/AboutSection1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 motion;
 

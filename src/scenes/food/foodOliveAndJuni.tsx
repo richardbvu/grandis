@@ -1,8 +1,8 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Olive1.jpg";
-import Image2 from "../../assets/Olive2.jpg";
-import Image3 from "../../assets/Olive3.jpg";
-import Image4 from "../../assets/Olive4.jpg";
+import Image1 from "../../assets/Olive1.webp";
+import Image2 from "../../assets/Olive2.webp";
+import Image3 from "../../assets/Olive3.webp";
+import Image4 from "../../assets/Olive4.webp";
 
 const FoodOliveAndJuni = () => {
   return (

@@ -1,8 +1,9 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Pho1.jpg";
-import Image2 from "../../assets/Pho2.jpg";
-import Image4 from "../../assets/Pho4.jpg";
-import Image5 from "../../assets/Pho5.jpg";
+import Image1 from "../../assets/Pho1.webp";
+import Image2 from "../../assets/Pho2.webp";
+// No Image 3
+import Image4 from "../../assets/Pho4.webp";
+import Image5 from "../../assets/Pho5.webp";
 
 const FoodPho = () => {
   return (
@@ -13,7 +14,7 @@ const FoodPho = () => {
         image1={Image1}
         image2={Image2}
         image3={Image4}
-        image5={Image5}
+        image4={Image5}
         week="11am-11pm"
         friday="11am-11pm"
         saturday="11am-11pm"

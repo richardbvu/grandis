@@ -1,10 +1,10 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Marigold1.jpg";
-import Image2 from "../../assets/Marigold2.jpg";
-import Image3 from "../../assets/Marigold3.jpg";
-import Image4 from "../../assets/Marigold4.jpg";
-import Image5 from "../../assets/Marigold5.jpg";
-import Image6 from "../../assets/Marigold6.jpg";
+import Image1 from "../../assets/Marigold1.webp";
+import Image2 from "../../assets/Marigold2.webp";
+import Image3 from "../../assets/Marigold3.webp";
+import Image4 from "../../assets/Marigold4.webp";
+import Image5 from "../../assets/Marigold5.webp";
+import Image6 from "../../assets/Marigold6.webp";
 
 const FoodMarigold = () => {
   return (

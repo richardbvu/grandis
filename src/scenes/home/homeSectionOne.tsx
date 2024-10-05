@@ -1,7 +1,7 @@
 import HomeSectionOneImages from "./homeSectionOneImages";
-import HomeSectionOneImage1 from "../../assets/HomeSectionOneImage1.jpg";
-import HomeSectionOneImage2 from "../../assets/HomeSectionOneImage2.jpg";
-import HomeSectionOneImage3 from "../../assets/HomeSectionOneImage3.jpg";
+import HomeSectionOneImage1 from "../../assets/HomeSectionOneImage1.webp";
+import HomeSectionOneImage2 from "../../assets/HomeSectionOneImage2.webp";
+import HomeSectionOneImage3 from "../../assets/HomeSectionOneImage3.webp";
 
 const images = [
   {

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ArtImage1 from "../../assets/ArtImage1.jpg";
+import ArtImage1 from "../../assets/ArtImage1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ArtSectionOne = () => {

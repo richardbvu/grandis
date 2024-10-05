@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Office1 from "../../assets/Office1.jpg";
+import Office1 from "../../assets/Office1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OfficeSectionOne = () => {

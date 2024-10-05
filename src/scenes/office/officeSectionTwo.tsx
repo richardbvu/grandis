@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import OfficeSectionTwoImage1 from "../../assets/OfficeSection2Image1.jpg";
+import OfficeSectionTwoImage1 from "../../assets/OfficeSection2Image1.webp";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const OfficeSectionTwo = () => {

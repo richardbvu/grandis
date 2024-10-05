@@ -1,9 +1,9 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Whispering1.jpg";
-import Image2 from "../../assets/Whispering2.jpg";
-import Image3 from "../../assets/Whispering3.jpg";
-import Image4 from "../../assets/Whispering4.jpg";
-import Image5 from "../../assets/Whispering5.jpg";
+import Image1 from "../../assets/Whispering1.webp";
+import Image2 from "../../assets/Whispering2.webp";
+import Image3 from "../../assets/Whispering3.webp";
+import Image4 from "../../assets/Whispering4.webp";
+import Image5 from "../../assets/Whispering5.webp";
 
 const FoodTheWhispering = () => {
   return (

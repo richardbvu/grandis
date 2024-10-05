@@ -1,5 +1,5 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import AboutSection2 from "../../assets/AboutSection2.jpg";
+import AboutSection2 from "../../assets/AboutSection2.webp";
 
 const AboutSectionTwo = () => {
   return (

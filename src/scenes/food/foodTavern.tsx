@@ -1,10 +1,10 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Tavern1.jpg";
-import Image2 from "../../assets/Tavern2.jpg";
-import Image3 from "../../assets/Tavern3.jpg";
-import Image4 from "../../assets/Tavern4.jpg";
-import Image5 from "../../assets/Tavern5.jpg";
-import Image6 from "../../assets/Tavern6.jpg";
+import Image1 from "../../assets/Tavern1.webp";
+import Image2 from "../../assets/Tavern2.webp";
+import Image3 from "../../assets/Tavern3.webp";
+import Image4 from "../../assets/Tavern4.webp";
+import Image5 from "../../assets/Tavern5.webp";
+import Image6 from "../../assets/Tavern6.webp";
 
 const FoodTavern = () => {
   return (

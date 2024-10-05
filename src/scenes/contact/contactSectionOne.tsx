@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ContactImage1 from "../../assets/ContactImage1.jpg";
+import ContactImage1 from "../../assets/ContactImage1.webp";
 
 const ContactSectionOne = () => {
   return (

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import EventsImg from "../../assets/EventsImg.png";
+import EventsImg from "../../assets/EventsImg.webp";
 
 const Events = () => {
   return (

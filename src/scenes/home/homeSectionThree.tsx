@@ -1,4 +1,4 @@
-import HomeSectionThreeImage1 from "../../assets/HomeSectionThreeImage1.jpg";
+import HomeSectionThreeImage1 from "../../assets/HomeSectionThreeImage1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 

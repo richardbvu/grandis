@@ -1,4 +1,4 @@
-import HomeSectionTwoImage1 from "../../assets/HomeSectionTwoImage1.jpg";
+import HomeSectionTwoImage1 from "../../assets/HomeSectionTwoImage1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeSectionTwo = () => {

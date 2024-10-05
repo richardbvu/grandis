@@ -1,9 +1,9 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import ArtSection3Image1 from "../../assets/artSection3Image1.jpg";
-import ArtSection3Image2 from "../../assets/artSection3Image2.jpg";
-import ArtSection3Image3 from "../../assets/artSection3Image3.jpg";
-import ArtSection3Image4 from "../../assets/artSection3Image4.jpg";
-import ArtSection3Image5 from "../../assets/artSection3Image5.jpg";
+import ArtSection3Image1 from "../../assets/artSection3Image1.webp";
+import ArtSection3Image2 from "../../assets/artSection3Image2.webp";
+import ArtSection3Image3 from "../../assets/artSection3Image3.webp";
+import ArtSection3Image4 from "../../assets/artSection3Image4.webp";
+import ArtSection3Image5 from "../../assets/artSection3Image5.webp";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const ArtSectionThree = () => {

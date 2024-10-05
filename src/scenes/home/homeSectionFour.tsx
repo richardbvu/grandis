@@ -1,5 +1,6 @@
-import HomeSectionFourImage1 from "../../assets/HomeSectionFourImage1.jpg";
+import HomeSectionFourImage1 from "../../assets/HomeSectionFourImage1.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const HomeSectionFour = () => {
   return (
@@ -10,6 +11,7 @@ const HomeSectionFour = () => {
             src={HomeSectionFourImage1}
             alt="home-section-four-image"
             className="h-[500px] w-full object-cover"
+            effect="blur"
           />
         </div>
         <div className="flex w-full justify-end">

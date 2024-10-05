@@ -1,13 +1,13 @@
 import FoodPage from "./foodPage";
-import Food1 from "../../assets/Food1.jpg";
-import Food2 from "../../assets/Food2.jpg";
-import Food3 from "../../assets/Pho5.jpg";
-import Food4 from "../../assets/Marigold3.jpg";
-import Food5 from "../../assets/Food5.jpg";
-import Food6 from "../../assets/Oak3.jpg";
-import Food7 from "../../assets/Food7.jpg";
-import Food8 from "../../assets/Food8.jpg";
-import Food9 from "../../assets/Food9.jpg";
+import Food1 from "../../assets/Food1.webp";
+import Food2 from "../../assets/Food2.webp";
+import Food3 from "../../assets/Pho5.webp";
+import Food4 from "../../assets/Marigold3.webp";
+import Food5 from "../../assets/Food5.webp";
+import Food6 from "../../assets/Oak3.webp";
+import Food7 from "../../assets/Food7.webp";
+import Food8 from "../../assets/Food8.webp";
+import Food9 from "../../assets/Food9.webp";
 
 const foods = [
   {

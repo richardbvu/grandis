@@ -1,9 +1,9 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Salad1.jpg";
-import Image2 from "../../assets/Salad2.jpg";
-import Image3 from "../../assets/Salad3.jpg";
-import Image4 from "../../assets/Salad4.jpg";
-import Image5 from "../../assets/Salad5.jpg";
+import Image1 from "../../assets/Salad1.webp";
+import Image2 from "../../assets/Salad2.webp";
+import Image3 from "../../assets/Salad3.webp";
+import Image4 from "../../assets/Salad4.webp";
+import Image5 from "../../assets/Salad5.webp";
 
 const FoodSallys = () => {
   return (

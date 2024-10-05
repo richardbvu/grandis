@@ -1,10 +1,10 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Oak1.jpg";
-import Image2 from "../../assets/Oak2.jpg";
-import Image3 from "../../assets/Oak3.jpg";
-import Image4 from "../../assets/Oak4.jpg";
-import Image5 from "../../assets/Oak5.jpg";
-import Image6 from "../../assets/Oak6.jpg";
+import Image1 from "../../assets/Oak1.webp";
+import Image2 from "../../assets/Oak2.webp";
+import Image3 from "../../assets/Oak3.webp";
+import Image4 from "../../assets/Oak4.webp";
+import Image5 from "../../assets/Oak5.webp";
+import Image6 from "../../assets/Oak6.webp";
 
 const FoodSavoryOak = () => {
   return (

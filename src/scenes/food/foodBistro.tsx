@@ -1,8 +1,8 @@
 import FoodLocationDetails from "./foodLocationDetails";
-import Image1 from "../../assets/Bistro1.jpg";
-import Image2 from "../../assets/Bistro2.jpg";
-import Image3 from "../../assets/Bistro3.jpg";
-import Image4 from "../../assets/Bistro4.jpg";
+import Image1 from "../../assets/Bistro1.webp";
+import Image2 from "../../assets/Bistro2.webp";
+import Image3 from "../../assets/Bistro3.webp";
+import Image4 from "../../assets/Bistro4.webp";
 
 const FoodBistro = () => {
   return (
