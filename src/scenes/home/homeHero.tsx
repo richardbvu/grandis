@@ -22,7 +22,8 @@ const HomeHero = () => {
             src={HeroImage1}
             alt="home-page-image"
             effect="blur"
-            className="h-screen min-h-[500px] w-full object-cover"
+            // className="h-screen max-h-[100px] min-h-[400px] w-full object-cover"
+            className="max-h-[1500px] min-h-[850px] w-full object-cover"
           />
         </motion.div>
         {/* <div className="absolute top-[250px] flex flex-col gap-5 drop-shadow-[0_2px_2px_rgba(0,0,0,1)] xs:left-[100px] xs:items-center xs:gap-1 sm:left-[170px] sm:items-start md:left-[200px] md:items-start lg:left-[220px] lg:items-start"> */}

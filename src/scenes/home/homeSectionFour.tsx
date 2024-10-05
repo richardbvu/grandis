@@ -10,7 +10,8 @@ const HomeSectionFour = () => {
           <LazyLoadImage
             src={HomeSectionFourImage1}
             alt="home-section-four-image"
-            className="h-[500px] w-full object-cover"
+            className="max-h-[1000px] min-h-[500px] w-full object-cover"
+            // className="h-[500px] w-full object-cover"
             effect="blur"
           />
         </div>
