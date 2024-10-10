@@ -10,13 +10,13 @@ const AboutSectionThree = () => {
             Richard Vu is a passionate Front-end Developer based in Torrance,
             California.
           </p>
-          <button className="mx-auto w-fit rounded-lg bg-gray-300 px-7 py-4 transition duration-300 hover:bg-gray-200 hover:text-white">
-            <div>
-              <a href="https://github.com/richardbvu" target="_blank">
-                Visit GitHub
-              </a>
-            </div>
-          </button>
+          <a
+            href="https://github.com/richardbvu"
+            target="_blank"
+            className="mx-auto w-fit rounded-lg bg-gray-300 px-7 py-4 transition duration-300 hover:bg-gray-200 hover:text-white"
+          >
+            <button>Visit GitHub</button>
+          </a>
         </div>
       </div>
     </section>
